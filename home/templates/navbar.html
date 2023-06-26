@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShowUNEMI</title>
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/casting_icon.png' %}">
+
+</head>
+<body>
+  <header>
+    <h2 class="logo">ShowUNEMI</h2> 
+    <label class="mostrar-menu"> 
+      &#8801 
+    </label>
+    <nav class="menu">
+      <a href="#"> HOME</a>
+      <a href="#"> SOBRE NOSOTROS</a>
+      <a href="#"> GALERÍA</a>
+      <a href="#"> ¿QUIERES HACER CASTING?</a>
+      <a href="#"> CONTÁCTENOS</a>
+      <labelfor="check" class="esconder-menu">
+        &#215
+      </label>
+    </nav>
+  </header>
+  
+  <section id="banner">
+    <div class="contenido-banner">
+      <img src="{% static 'images/shows.jpg' %}"> 
+      <h3><span> ShowUNEMI: </span>Tu lugar para hacer Casting</h3>
+      <a href="#" class="boton-empezar">EMPEZAR</a>
+      
+    </div>
+  </section>  
+
+    <h2 class="sobre"> Sobre Nosotros </h2>
+    <br>
+    <h3 class="texto"> Somos una agencia especializada en la dirección de
+      casting, talentos y figuración para producciones
+      audiovisuales.
+      <br> Nos adaptamos a tu proyecto para dar respuesta a tus
+      necesidades, plazos y presupuestos.
+      <br> Nuestro logotipo es nuestro activo de marca más
+      valioso e importante, es por eso que nuestro logo esta representado
+      por una empresa de diseño.<br>
+      <br> ShowsUNEMI ha estado funcionando desde 2008 y se ha convertido en un confiable socio en la producción de cine y TVC. 
+      Ofrecemos sólo cuidadosamente seleccionados actores preferentemente con experiencia en cine, teatro o televisión.  
+      De acuerdo con la tarea, podemos proporcionarle rápidamente una celebridad o un adolescente inteligente en la calle. </h3>
+  <section id="personas">
+    <div>
+      <img src="{% static 'images/erika.jpeg' %}">  
+      <h3> Erika Villamar</h3>
+      <h4> Jefa de Casting </h4>
+    </div>
+    <div>
+      <img src="{% static 'images/herbert.jpeg' %}">   
+      <h3> Herbert Shuldt</h3>
+      <h4> Asistente de Casting </h4>
+    </div>
+
+
+</body>
+</html>
